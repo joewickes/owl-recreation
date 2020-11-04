@@ -1,0 +1,46 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Vid Component renders empty div if in session but not on stage 1`] = `null`;
+
+exports[`Vid Component renders empty div if not on stage or in session 1`] = `null`;
+
+exports[`Vid Component renders the Vid on stage 1`] = `
+<div
+  className="Vid"
+>
+  <div
+    className="Vid-box"
+  >
+    <div
+      className="Vid-box-back"
+    >
+      <p
+        className="Vid-box-name"
+      >
+        On Stage
+      </p>
+      <div
+        className="Vid-box-line"
+      />
+      <div
+        className="Vid-box-icons"
+      >
+        <p>
+          Mic
+        </p>
+        <p>
+          Mag
+        </p>
+      </div>
+    </div>
+  </div>
+  <div
+    className="Vid-display"
+  >
+    <img
+      alt="On Stage's Avatar"
+      src="https://robohash.org/itaquevoluptatumrerum.jpg?size=200x200&set=set1"
+    />
+  </div>
+</div>
+`;

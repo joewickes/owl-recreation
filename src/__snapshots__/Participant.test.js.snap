@@ -1,0 +1,109 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Participant Component renders the Participant having left 1`] = `
+<div
+  className="Participant"
+>
+  <div
+    className="participant-left"
+  >
+    <img
+      alt="They Left's Avatar"
+      src="https://robohash.org/itaquevoluptatumrerum.jpg?size=200x200&set=set1"
+    />
+  </div>
+  <div
+    className="participant-right"
+  >
+    <p
+      className="participant-name"
+    >
+      They Left
+    </p>
+    <div
+      className="session-status"
+    >
+      <div
+        className="session-red"
+      >
+        <p />
+      </div>
+      <p>
+        left
+      </p>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`Participant Component renders the Participant in session 1`] = `
+<div
+  className="Participant"
+>
+  <div
+    className="participant-left"
+  >
+    <img
+      alt="In Session's Avatar"
+      src="https://robohash.org/itaquevoluptatumrerum.jpg?size=200x200&set=set1"
+    />
+  </div>
+  <div
+    className="participant-right"
+  >
+    <p
+      className="participant-name"
+    >
+      In Session
+    </p>
+    <div
+      className="session-status"
+    >
+      <div
+        className="session-green"
+      >
+        <p />
+      </div>
+      <p>
+        in session
+      </p>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`Participant Component renders the Participant on stage 1`] = `
+<div
+  className="Participant"
+>
+  <div
+    className="participant-left"
+  >
+    <img
+      alt="On Stage's Avatar"
+      src="https://robohash.org/itaquevoluptatumrerum.jpg?size=200x200&set=set1"
+    />
+  </div>
+  <div
+    className="participant-right"
+  >
+    <p
+      className="participant-name"
+    >
+      On Stage
+    </p>
+    <div
+      className="session-status"
+    >
+      <div
+        className="session-green"
+      >
+        <p />
+      </div>
+      <p>
+        on stage
+      </p>
+    </div>
+  </div>
+</div>
+`;

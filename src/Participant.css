@@ -1,0 +1,60 @@
+* {
+  margin: 0px;
+  padding: 0px;
+}
+
+.Participant {
+  display: flex;
+  align-items: center;
+}
+
+.participant-left {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 1px solid black;
+  border-radius: 50%;
+  width: 40px;
+  margin: 10px;
+}
+
+.participant-left img {
+  width: 100%;
+  border-radius: 50%;
+}
+
+.participant-right {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  height: 80%;
+  justify-content: flex-end;
+}
+
+.participant-name {
+  font-weight: bold;
+  margin-bottom:  5px;
+}
+
+.session-status {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  width: 100%;
+  font-weight: lighter;
+}
+
+.session-green, .session-red {
+  width: 9px;
+  height: 9px;
+  border-radius: 50%;
+  margin-right: 10px;
+}
+
+.session-green {
+  background-color: lightgreen;
+}
+
+.session-red {
+  background-color: red;
+}

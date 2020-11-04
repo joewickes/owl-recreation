@@ -1,0 +1,49 @@
+.Vid {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+  background-color: #555;
+  flex: 1;
+}
+
+.Vid-box {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+}
+
+.Vid-box-back {
+  background-color: #000;
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  color: white;
+}
+
+.Vid-display img {
+  background-color: #FFF;
+  border-radius: 50%;
+}
+
+.Vid-box-name {
+  font-weight: bold;
+  margin-bottom: 5px;
+  margin-top: 10px;
+}
+
+.Vid-box-line {
+  width: 80%;
+  height: 3px;
+  background-color: red;
+  border-radius: 5px;
+  margin-bottom: 5px;
+}
+
+.Vid-box-icons {
+  display: flex;
+  justify-content: space-evenly;
+  width: 100%;
+  margin-bottom: 10px;
+}

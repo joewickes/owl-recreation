@@ -1,0 +1,33 @@
+* {
+  margin: 0px;
+  border: 0px;
+}
+
+.display-message {
+  display: flex;
+  align-items: center;
+  align-self: flex-start;
+}
+
+.message-heading {
+  display: flex;
+}
+
+.participant-name {
+  margin-right: 10px;
+}
+
+.message-left {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 1px solid black;
+  border-radius: 50%;
+  width: 40px;
+  margin: 10px;
+}
+
+.message-left img {
+  width: 100%;
+  border-radius: 50%;
+}

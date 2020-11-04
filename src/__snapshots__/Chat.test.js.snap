@@ -1,0 +1,136 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Chat Component renders a clap 1`] = `
+<div
+  className="Chat"
+>
+  <p
+    className="display-text"
+  >
+    Sally
+     clapped
+  </p>
+</div>
+`;
+
+exports[`Chat Component renders a join 1`] = `
+<div
+  className="Chat"
+>
+  <p
+    className="display-text"
+  >
+    Sally
+     joined
+  </p>
+</div>
+`;
+
+exports[`Chat Component renders a join stage 1`] = `
+<div
+  className="Chat"
+>
+  <p
+    className="display-text"
+  >
+    Sally
+     joined the stage
+  </p>
+</div>
+`;
+
+exports[`Chat Component renders a leave 1`] = `
+<div
+  className="Chat"
+>
+  <p
+    className="display-text"
+  >
+    Sally
+     left
+  </p>
+</div>
+`;
+
+exports[`Chat Component renders a leave stage 1`] = `
+<div
+  className="Chat"
+>
+  <p
+    className="display-text"
+  >
+    Sally
+     left the stage
+  </p>
+</div>
+`;
+
+exports[`Chat Component renders a message 1`] = `
+<div
+  className="Chat"
+>
+  <div
+    className="display-message"
+  >
+    <div
+      className="message-left"
+    >
+      <img
+        alt="Bob's Avatar"
+        src="https://robohash.org/itaquevoluptatumrerum.jpg?size=200x200&set=set1"
+      />
+    </div>
+    <div
+      className="message-right"
+    >
+      <div
+        className="message-heading"
+      >
+        <p
+          className="participant-name"
+        >
+          Bob
+        </p>
+        <p>
+          7:50
+        </p>
+      </div>
+      <p>
+        Hey , I'm here
+      </p>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`Chat Component renders a raised hand 1`] = `
+<div
+  className="Chat"
+/>
+`;
+
+exports[`Chat Component renders a thumbs down 1`] = `
+<div
+  className="Chat"
+>
+  <p
+    className="display-text"
+  >
+    Sally
+     gave a thumbs down
+  </p>
+</div>
+`;
+
+exports[`Chat Component renders a thumbs up 1`] = `
+<div
+  className="Chat"
+>
+  <p
+    className="display-text"
+  >
+    Sally
+     gave a thumbs up
+  </p>
+</div>
+`;
